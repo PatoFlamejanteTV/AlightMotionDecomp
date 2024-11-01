@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/vector_search"
+        android:id="@+id/action_search"
+        android:title="@string/search_apps"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/option_button_share"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/action_antivirus_report"
+        android:title="@string/virustotal_safety_report_title"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/action_uninstall"
+        android:title="@string/dialogo_app_selected_uninstall"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/action_wishlist"
+        android:title="@string/app_detail_add_wishlist_title"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/action_exclude"
+        android:title="@string/not_offer_updates"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/action_app_installed_details"
+        android:visible="false"
+        android:title="@string/app_instaled_details"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/action_app_details_settings"
+        android:visible="false"
+        android:title="@string/action_app_details_settings"
+        app:showAsAction="collapseActionView"/>
+</menu>

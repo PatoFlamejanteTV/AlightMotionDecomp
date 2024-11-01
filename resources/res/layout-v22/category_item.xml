@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_category_item"
+    android:background="@drawable/ripple_categories"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginLeft="@dimen/margin_m"
+    android:layout_marginTop="@dimen/margin_l"
+    android:layout_marginRight="@dimen/margin_m"
+    android:minWidth="150dp"
+    android:layout_centerInParent="true"
+    android:elevation="4dp"
+    android:layout_marginHorizontal="@dimen/margin_m">
+    <ImageView
+        android:id="@+id/iv_category_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@null"/>
+    <com.uptodown.views.ScrollableTextView
+        android:textSize="@dimen/text_size_l"
+        android:textColor="@color/main_blue"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:id="@+id/tv_category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_s"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginRight="@dimen/margin_s"
+        android:maxLines="2"
+        android:lines="2"
+        android:layout_below="@+id/iv_category_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/margin_s"/>
+</RelativeLayout>

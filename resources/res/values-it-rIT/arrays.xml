@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="localizedLang">
+        <item>Inglese</item>
+        <item>Spagnolo</item>
+        <item>Portoghese</item>
+        <item>Tedesco</item>
+        <item>Francese</item>
+        <item>Italiano</item>
+        <item>Cinese</item>
+        <item>Giapponese</item>
+        <item>Russo</item>
+        <item>Coreano</item>
+        <item>Indonesiano</item>
+        <item>Arabo</item>
+        <item>Thailandese</item>
+        <item>Turco</item>
+        <item>Hindi</item>
+        <item>Vietnamita</item>
+        <item>Romeno</item>
+    </array>
+</resources>

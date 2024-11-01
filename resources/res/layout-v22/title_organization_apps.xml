@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/text_size_l"
+    android:textColor="@color/text_primary"
+    android:ellipsize="end"
+    android:id="@+id/tv_system_apps_title"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_m"
+    android:layout_marginTop="@dimen/margin_m"
+    android:layout_marginRight="@dimen/margin_m"
+    android:layout_marginBottom="@dimen/margin_m"
+    android:text="@string/system_apps_title"
+    android:maxLines="1"
+    android:layout_marginHorizontal="@dimen/margin_m"
+    android:layout_marginVertical="@dimen/margin_m"/>

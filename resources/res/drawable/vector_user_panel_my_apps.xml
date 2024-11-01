@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="20dp"
+    android:width="20dp"
+    android:viewportWidth="20"
+    android:viewportHeight="20">
+    <path
+        android:fillColor="@color/user_fragment_icon_color"
+        android:pathData="M2,0L7,0A2,2 0,0 1,9 2L9,7A2,2 0,0 1,7 9L2,9A2,2 0,0 1,0 7L0,2A2,2 0,0 1,2 0z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="0.8"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M2,0.4L7,0.4A1.6,1.6 0,0 1,8.6 2L8.6,7A1.6,1.6 0,0 1,7 8.6L2,8.6A1.6,1.6 0,0 1,0.4 7L0.4,2A1.6,1.6 0,0 1,2 0.4z"
+        android:strokeColor="@color/user_fragment_icon_color"
+        android:strokeWidth="0.8"/>
+    <path
+        android:fillColor="@color/user_fragment_icon_color"
+        android:pathData="M13,0L18,0A2,2 0,0 1,20 2L20,7A2,2 0,0 1,18 9L13,9A2,2 0,0 1,11 7L11,2A2,2 0,0 1,13 0z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="0.8"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M13,0.4L18,0.4A1.6,1.6 0,0 1,19.6 2L19.6,7A1.6,1.6 0,0 1,18 8.6L13,8.6A1.6,1.6 0,0 1,11.4 7L11.4,2A1.6,1.6 0,0 1,13 0.4z"
+        android:strokeColor="@color/user_fragment_icon_color"
+        android:strokeWidth="0.8"/>
+    <path
+        android:fillColor="@color/user_fragment_icon_color"
+        android:pathData="M2,11L7,11A2,2 0,0 1,9 13L9,18A2,2 0,0 1,7 20L2,20A2,2 0,0 1,0 18L0,13A2,2 0,0 1,2 11z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="0.8"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M2,11.4L7,11.4A1.6,1.6 0,0 1,8.6 13L8.6,18A1.6,1.6 0,0 1,7 19.6L2,19.6A1.6,1.6 0,0 1,0.4 18L0.4,13A1.6,1.6 0,0 1,2 11.4z"
+        android:strokeColor="@color/user_fragment_icon_color"
+        android:strokeWidth="0.8"/>
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M13,11.4L18,11.4A1.6,1.6 0,0 1,19.6 13L19.6,18A1.6,1.6 0,0 1,18 19.6L13,19.6A1.6,1.6 0,0 1,11.4 18L11.4,13A1.6,1.6 0,0 1,13 11.4z"
+        android:strokeColor="@color/user_fragment_icon_color"
+        android:strokeWidth="0.8"/>
+</vector>

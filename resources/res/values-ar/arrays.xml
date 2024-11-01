@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="localizedLang">
+        <item>الإنجليزية</item>
+        <item>الإسبانية</item>
+        <item>البرتغالية</item>
+        <item>الألمانية</item>
+        <item>الفرنسية</item>
+        <item>الإيطالية</item>
+        <item>الصينية</item>
+        <item>اليابانية</item>
+        <item>الروسية</item>
+        <item>الكورية</item>
+        <item>الإندونيسية</item>
+        <item>العربية</item>
+        <item>التايلاندية</item>
+        <item>التركية</item>
+        <item>الهندية</item>
+        <item>الفيتنامية</item>
+        <item>الرومانية</item>
+    </array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/recibir_notificaciones"
+        android:key="pc_notifications">
+        <SwitchPreference
+            android:title="@string/notifications_show"
+            android:key="recibir_notificaciones"
+            android:summary="@string/recibir_notificaciones_desc"
+            android:defaultValue="true"/>
+        <ListPreference
+            android:entries="@array/frecuency"
+            android:title="@string/updates"
+            android:key="notifications_frecuency"
+            android:summary="%s"
+            android:defaultValue="1"
+            android:dialogTitle="Select frecuency"
+            android:entryValues="@array/frecuency_values"/>
+        <SwitchPreference
+            android:title="@string/downloads_title"
+            android:key="download_notification"
+            android:summary="@string/downloads_notification_permission_description"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:title="@string/installations"
+            android:key="installation_notification"
+            android:summary="@string/installs_notification_permission_description"
+            android:defaultValue="true"/>
+        <SwitchPreference
+            android:title="@string/search_apk_file_worker_preference_title"
+            android:key="search_apk_worker_active"
+            android:summary="@string/search_apk_file_worker_preference_description"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

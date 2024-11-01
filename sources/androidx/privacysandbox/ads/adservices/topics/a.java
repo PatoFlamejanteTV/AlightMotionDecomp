@@ -1,0 +1,8 @@
+package androidx.privacysandbox.ads.adservices.topics;
+
+/* loaded from: classes3.dex */
+public abstract /* synthetic */ class a {
+    public static /* bridge */ /* synthetic */ Class a() {
+        return android.adservices.topics.TopicsManager.class;
+    }
+}

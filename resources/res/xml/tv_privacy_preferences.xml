@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/gdpr_title">
+        <SwitchPreference
+            android:title="@string/tracking_title_gdpr"
+            android:key="gdpr_tracking_allowed"
+            android:summary="@string/tracking_msg_gdpr"/>
+        <SwitchPreference
+            android:title="@string/analytics_title_gdpr"
+            android:key="gdpr_analytics_allowed"
+            android:summary="@string/analytics_msg_gdpr"/>
+        <SwitchPreference
+            android:title="@string/crash_logging_title_gdpr"
+            android:key="gdpr_crashlytics_allowed"
+            android:summary="@string/crash_logging_msg_gdpr"/>
+        <Preference
+            android:title="@string/right_to_be_forgotten_title_gdpr"
+            android:key="right_to_be_forgotten"
+            android:summary="@string/right_to_be_forgotten_msg_gdpr"/>
+    </PreferenceCategory>
+    <Preference
+        android:key="privacy_accept_all"
+        android:widgetLayout="@xml/button_tv_accept_all_gdpr"/>
+    <Preference
+        android:key="privacy_decline_all"
+        android:widgetLayout="@xml/button_tv_decline_all_gdpr"/>
+</PreferenceScreen>

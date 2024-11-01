@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:theme="@style/UptodownToolbarTheme"
+        android:id="@+id/toolbar_fus"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.DayNight">
+        <TextView
+            android:id="@+id/tv_toolbar_title_fus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_storage_action"
+            style="@style/UptodownToolbarStyle"/>
+    </androidx.appcompat.widget.Toolbar>
+    <include
+        android:id="@+id/header_fus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_m"
+        android:layout_below="@+id/toolbar_fus"
+        layout="@layout/warning_not_space_available"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_fus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_l"
+        android:layout_below="@+id/header_fus"/>
+    <include
+        android:id="@+id/loading_view_fus"
+        layout="@layout/loading_view"/>
+</RelativeLayout>

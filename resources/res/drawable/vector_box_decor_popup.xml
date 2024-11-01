@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="67.685dp"
+    android:width="67.685dp"
+    android:viewportWidth="67.685"
+    android:viewportHeight="67.685">
+    <path
+        android:fillColor="@drawable/res_0x7f08003d_vector_box_decor_popup__0"
+        android:pathData="M7.071,26.771L26.771,7.071A10,10 111.933,0 1,40.913 7.071L60.613,26.771A10,10 81.269,0 1,60.613 40.913L40.913,60.613A10,10 0,0 1,26.771 60.613L7.071,40.913A10,10 0,0 1,7.071 26.771z"/>
+</vector>

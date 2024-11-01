@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_m"
+    android:layout_marginRight="@dimen/margin_m"
+    android:layout_marginHorizontal="@dimen/margin_m">
+    <com.uptodown.views.FullWidthImageView
+        android:id="@+id/iv_feature_home"
+        android:background="@drawable/shape_bg_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:background="@drawable/shape_shadow_home_feature"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"/>
+    <TextView
+        android:textSize="@dimen/text_size_s"
+        android:id="@+id/tv_tag_feature_home"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginStart="@dimen/margin_m"
+        android:layout_alignParentStart="true"
+        style="@style/TextViewAppInfoStatus"/>
+    <TextView
+        android:textSize="@dimen/text_size_m"
+        android:textColor="@color/white"
+        android:id="@+id/tv_name_feature_home"
+        android:paddingBottom="@dimen/margin_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/margin_m"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

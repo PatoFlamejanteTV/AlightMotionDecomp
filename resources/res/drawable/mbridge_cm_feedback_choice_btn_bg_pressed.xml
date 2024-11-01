@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="16dp"/>
+    <solid android:color="@color/mbridge_cm_feedback_dialog_chice_bg_pressed"/>
+</shape>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="localizedLang">
+        <item>Engleză</item>
+        <item>Spaniolă</item>
+        <item>Portugheză</item>
+        <item>Germană</item>
+        <item>Franceză</item>
+        <item>Italiană</item>
+        <item>Chineză</item>
+        <item>Japoneză</item>
+        <item>Rusă</item>
+        <item>Coreeană</item>
+        <item>Indoneziană</item>
+        <item>Arabă</item>
+        <item>Thailandeză</item>
+        <item>Turcă</item>
+        <item>Hindusă</item>
+        <item>Vietnameză</item>
+        <item>Română</item>
+    </array>
+</resources>

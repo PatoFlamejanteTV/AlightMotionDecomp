@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:icon="@drawable/vector_shortcut_updates"
+        android:enabled="true"
+        android:shortcutId="updates"
+        android:shortcutShortLabel="@string/updates"
+        android:shortcutLongLabel="@string/updates">
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.MainActivity"/>
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.Updates"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/vector_shortcut_myapps"
+        android:enabled="true"
+        android:shortcutId="installed"
+        android:shortcutShortLabel="@string/mis_apps_title"
+        android:shortcutLongLabel="@string/mis_apps_title">
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.MainActivity"/>
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.MyApps"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/vector_shortcut_downloads"
+        android:enabled="true"
+        android:shortcutId="downloads"
+        android:shortcutShortLabel="@string/downloads_title"
+        android:shortcutLongLabel="@string/downloads_title">
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.MainActivity"/>
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.MyDownloads"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/vector_shortcut_settings"
+        android:enabled="true"
+        android:shortcutId="settings"
+        android:shortcutShortLabel="@string/settings"
+        android:shortcutLongLabel="@string/settings">
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.MainActivity"/>
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.preferences.SettingsPreferences"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+</shortcuts>

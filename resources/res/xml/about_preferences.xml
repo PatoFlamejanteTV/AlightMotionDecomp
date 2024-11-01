@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="Website"
+        android:key="uptodown_website"
+        android:summary="@string/url"/>
+    <Preference
+        android:title="Developers"
+        android:key="uptodown_developers"
+        android:summary="@string/url_developers"/>
+    <Preference
+        android:title="@string/version_label"
+        android:key="version"
+        android:summary="@string/version"/>
+    <Preference
+        android:title="@string/publication_date"
+        android:key="publication_date"
+        android:summary="@string/version"/>
+    <Preference
+        android:title="Uptodown Core"
+        android:key="core_version"/>
+</PreferenceScreen>

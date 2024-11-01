@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_fqi"
+    android:background="@drawable/ripple_floating_queue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_l"
+    android:layout_marginBottom="@dimen/margin_l"
+    android:layout_marginEnd="@dimen/margin_m"
+    android:elevation="10dp"
+    android:layout_marginVertical="@dimen/margin_l">
+    <ImageView
+        android:id="@+id/iv_icon_fqi"
+        android:layout_width="@dimen/icon_size_s"
+        android:layout_height="@dimen/icon_size_s"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/vector_download_floating_queue"/>
+    <TextView
+        android:textSize="@dimen/text_size_xl"
+        android:textColor="@color/text_primary"
+        android:id="@+id/tv_counter_fqi"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    <ProgressBar
+        android:id="@+id/pb_fqi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:max="100"
+        android:progress="0"
+        android:indeterminateOnly="false"
+        android:indeterminateDrawable="@drawable/progressbar_circular_indeterminate_floating_queue"
+        android:progressDrawable="@drawable/progressbar_circular_floating_queue"
+        android:indeterminateDuration="2000"/>
+</RelativeLayout>

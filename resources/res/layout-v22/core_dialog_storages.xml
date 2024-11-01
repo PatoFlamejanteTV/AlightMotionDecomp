@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/lv_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/clear_grey"
+        android:dividerHeight="1dp"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_ok"
+        android:layout_marginTop="@dimen/margin_m"
+        android:layout_marginBottom="@dimen/margin_m"
+        android:text="@string/ok"
+        android:layout_marginVertical="@dimen/margin_m"
+        style="@style/DialogButtonsStyle"/>
+</LinearLayout>

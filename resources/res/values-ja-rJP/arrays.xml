@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="localizedLang">
+        <item>英語</item>
+        <item>スペイン語</item>
+        <item>ポルトガル語</item>
+        <item>ドイツ語</item>
+        <item>フランス語</item>
+        <item>イタリア語</item>
+        <item>中国語</item>
+        <item>日本語</item>
+        <item>ロシア語</item>
+        <item>韓国語</item>
+        <item>インドネシア語</item>
+        <item>アラビア語</item>
+        <item>タイ語</item>
+        <item>トルコ語</item>
+        <item>ヒンディー語</item>
+        <item>ベトナム語</item>
+        <item>ルーマニア語</item>
+    </array>
+</resources>

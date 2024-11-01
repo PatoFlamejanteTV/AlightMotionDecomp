@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/box_positive"
+        android:background="@drawable/shape_bg_scan_positive"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="@dimen/margin_m"/>
+    <TextView
+        android:textSize="@dimen/text_size_s"
+        android:textColor="@color/text_primary"
+        android:ellipsize="end"
+        android:id="@+id/tv_virus_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_toEndOf="@+id/box_positive"/>
+    <TextView
+        android:textSize="@dimen/text_size_s"
+        android:textColor="@color/text_secundary"
+        android:ellipsize="end"
+        android:id="@+id/tv_antivirus_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_below="@+id/tv_virus_name"
+        android:layout_toEndOf="@+id/box_positive"/>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="@dimen/small_text_size"
+        android:id="@+id/tv_google_consents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:text="@string/google_consents"
+        android:textAllCaps="true"
+        android:layout_marginStart="@dimen/spacing_medium"/>
+    <View
+        android:id="@+id/gbc_purpose_divider"
+        android:background="@color/colorGrey"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_google_purposes_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>

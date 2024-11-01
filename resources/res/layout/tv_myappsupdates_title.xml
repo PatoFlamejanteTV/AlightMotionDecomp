@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="@dimen/margin_m">
+    <TextView
+        android:textSize="@dimen/text_size_l"
+        android:textColor="@color/text_primary"
+        android:ellipsize="end"
+        android:id="@+id/tv_myappsupdates_title"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/system_apps_title"
+        android:maxLines="1"/>
+    <ImageView
+        android:id="@+id/iv_myappsupdates_info"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:layout_marginStart="@dimen/margin_m"
+        app:srcCompat="@drawable/vector_info_explanation"/>
+</LinearLayout>

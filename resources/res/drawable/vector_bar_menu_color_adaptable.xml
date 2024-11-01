@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="20dp"
+    android:width="24.545dp"
+    android:viewportWidth="24.545"
+    android:viewportHeight="20">
+    <path
+        android:fillColor="@color/toolbar_icon"
+        android:pathData="M2,0L22.545,0A2,2 0,0 1,24.545 2L24.545,2.545A2,2 0,0 1,22.545 4.545L2,4.545A2,2 0,0 1,0 2.545L0,2A2,2 0,0 1,2 0z"/>
+    <path
+        android:fillColor="@color/toolbar_icon"
+        android:pathData="M2,7.727L22.545,7.727A2,2 0,0 1,24.545 9.727L24.545,10.272A2,2 0,0 1,22.545 12.272L2,12.272A2,2 0,0 1,0 10.272L0,9.727A2,2 0,0 1,2 7.727z"/>
+    <path
+        android:fillColor="@color/toolbar_icon"
+        android:pathData="M2,15.455L22.545,15.455A2,2 0,0 1,24.545 17.455L24.545,18A2,2 0,0 1,22.545 20L2,20A2,2 0,0 1,0 18L0,17.455A2,2 0,0 1,2 15.455z"/>
+</vector>

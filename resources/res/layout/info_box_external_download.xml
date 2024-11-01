@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/ll_box_external_download_info"
+    android:background="@drawable/shape_bg_external_download"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="12dp"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/vector_info_external_download"/>
+    <TextView
+        android:textSize="@dimen/text_size_m"
+        android:textColor="@color/text_primary"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/tv_external_download_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"/>
+</LinearLayout>

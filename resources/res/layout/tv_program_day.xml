@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.uptodown.tv.utils.FullWidthImageViewTv xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/iv_feature_program_day"
+    android:layout_width="800dp"
+    android:layout_height="wrap_content"
+    android:contentDescription="@null"/>

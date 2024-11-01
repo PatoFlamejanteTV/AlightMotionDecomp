@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/ll_no_tracking_container_updates"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="@dimen/text_size_m"
+        android:textColor="@color/text_secundary"
+        android:id="@+id/tv_no_tracking_msg_updates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_m"
+        android:text="@string/gdpr_no_tracking_enabled"/>
+    <TextView
+        android:textSize="@dimen/text_size_m"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_gdpr_set_up_updates"
+        android:background="@drawable/ripple_blue_primary_button"
+        android:paddingTop="11dp"
+        android:paddingBottom="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_m"
+        android:text="@string/gdpr_set_up"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"/>
+</LinearLayout>

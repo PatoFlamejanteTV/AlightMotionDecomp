@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="19.986dp"
+    android:width="20dp"
+    android:autoMirrored="true"
+    android:viewportWidth="20"
+    android:viewportHeight="19.986">
+    <path
+        android:fillColor="@color/turbo_main"
+        android:pathData="M15.489,1.635A10.007,10.007 0,0 0,0 9.995a9.792,9.792 0,0 0,1.655 5.457L0.039,19.322a0.484,0.484 0,0 0,0.629 0.629l3.87,-1.616a9.985,9.985 0,1 0,10.951 -16.7ZM10.014,19.022L10,19.022v0.01h0a9.115,9.115 0,0 1,-5.138 -1.635,0.484 0.484,0 0,0 -0.271,-0.087 0.475,0.475 0,0 0,-0.184 0l-3.029,1.3 1.268,-3.019a0.484,0.484 0,0 0,-0.048 -0.464A8.834,8.834 0,0 1,0.967 9.995a9.037,9.037 0,1 1,9.047 9.027Z"/>
+    <path
+        android:fillColor="@color/turbo_main"
+        android:pathData="M13.085,7.375a3.077,3.077 0,0 0,-6.119 0.385,0.484 0.484,0 1,0 0.968,0A2.071,2.071 0,1 1,10.004 9.868a0.484,0.484 0,0 0,-0.484 0.484v2.167a0.484,0.484 0,0 0,0.968 0L10.488,10.798A3.038,3.038 0,0 0,13.085 7.375Z"/>
+    <path
+        android:fillColor="@color/turbo_main"
+        android:pathData="M9.965,14.74m-0.53,0a0.53,0.53 0,1 1,1.06 0a0.53,0.53 0,1 1,-1.06 0"/>
+</vector>

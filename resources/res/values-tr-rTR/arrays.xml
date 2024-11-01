@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="localizedLang">
+        <item>İngilizce</item>
+        <item>İspanyolca</item>
+        <item>Portekizce</item>
+        <item>Almanca</item>
+        <item>Fransızca</item>
+        <item>İtalyanca</item>
+        <item>Çince</item>
+        <item>Japonca</item>
+        <item>Rusça</item>
+        <item>Korece</item>
+        <item>Endonezyaca</item>
+        <item>Arapça</item>
+        <item>Thai Dili</item>
+        <item>Türkçe</item>
+        <item>Hintçe</item>
+        <item>Vietnam Dili</item>
+        <item>Romence</item>
+    </array>
+</resources>

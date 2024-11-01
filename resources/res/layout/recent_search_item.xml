@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+        android:ellipsize="marquee"
+        android:id="@+id/tv_query_recent_search_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:singleLine="true"
+        android:layout_weight="1"
+        style="?android:attr/dropDownItemStyle"/>
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/iv_delete_recent_search_item"
+        android:background="@drawable/ripple_bg_card"
+        android:padding="@dimen/margin_s"
+        android:visibility="visible"
+        android:layout_width="@dimen/icon_size_s"
+        android:layout_height="@dimen/icon_size_s"
+        android:layout_marginLeft="@dimen/margin_m"
+        android:layout_marginRight="@dimen/margin_m"
+        android:contentDescription="@string/cd_delete_recent_search"
+        app:srcCompat="@drawable/core_vector_cross"/>
+</LinearLayout>

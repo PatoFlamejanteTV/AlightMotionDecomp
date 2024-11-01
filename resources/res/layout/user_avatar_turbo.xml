@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/icon_size_xl"
+    android:layout_height="@dimen/icon_size_xl"
+    android:layout_marginBottom="@dimen/margin_l">
+    <ImageView
+        android:id="@+id/iv_avatar_item"
+        android:layout_width="@dimen/icon_size_xl"
+        android:layout_height="@dimen/icon_size_xl"
+        android:contentDescription="@null"/>
+    <ImageView
+        android:id="@+id/iv_checked_user_avatar"
+        android:background="@drawable/shape_circle_avatar_checked"
+        android:padding="6dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="12dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@null"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/vector_check"/>
+    <RelativeLayout
+        android:id="@+id/rl_shadow_avatar_item"
+        android:background="@drawable/shape_avatar_selected_turbo_item"
+        android:layout_width="@dimen/icon_size_xl"
+        android:layout_height="@dimen/icon_size_xl"/>
+    <ImageView
+        android:id="@+id/iv_locked_item"
+        android:visibility="gone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@null"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/vector_lock"/>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_all_vendors"
+        android:title="@string/show_all_vendors"/>
+    <item
+        android:id="@+id/menu_iab_vendors"
+        android:title="@string/show_iab_vendors"/>
+    <item
+        android:id="@+id/menu_non_iab_vendors"
+        android:title="@string/show_non_iab_vendors"/>
+    <item
+        android:id="@+id/menu_google_vendors"
+        android:title="@string/show_google_vendors"/>
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_show_system_apps"
+        android:title="@string/system_apps_title"
+        android:checkable="true"/>
+    <item
+        android:enabled="false"
+        android:id="@+id/action_show_system_services"
+        android:title="@string/menu_item_title_system_services"
+        android:checkable="true"/>
+</menu>

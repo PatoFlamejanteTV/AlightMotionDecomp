@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_m"
+    android:animateLayoutChanges="true">
+    <TextView
+        android:textSize="@dimen/text_size_l"
+        android:textColor="@color/text_primary"
+        android:ellipsize="end"
+        android:id="@+id/tv_most_popular_apps_organization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_m"
+        android:layout_marginRight="@dimen/margin_m"
+        android:maxLines="1"
+        android:lines="1"
+        android:layout_marginHorizontal="@dimen/margin_m"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_most_popular_apps_organization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_m"/>
+</LinearLayout>

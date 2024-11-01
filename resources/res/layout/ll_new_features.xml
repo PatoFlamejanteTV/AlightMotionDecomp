@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/ll_version_new_features"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="300dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/ll_show_version_new_features"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="@dimen/xapk_filename_size"
+            android:textColor="@color/text_secundary"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tv_version_new_features"
+            android:background="@drawable/core_ripple_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/core_installer_new_features_title"/>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/iv_version_new_features"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:contentDescription="@null"
+            android:layout_marginStart="@dimen/margin_s"
+            app:srcCompat="@drawable/vector_arrow_angle_down_small_off"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="@dimen/xapk_filename_size"
+            android:textColor="@color/text_secundary"
+            android:id="@+id/tv_version_new_features_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_s"
+            android:lineSpacingExtra="8dp"/>
+    </ScrollView>
+</LinearLayout>

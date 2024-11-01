@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="localizedLang">
+        <item>Tiếng Anh</item>
+        <item>Tiếng Tây Ban Nha</item>
+        <item>Tiếng Bồ Đào Nha</item>
+        <item>Tiếng Đức</item>
+        <item>Tiếng Pháp</item>
+        <item>Tiếng Ý</item>
+        <item>Tiếng Trung Quốc</item>
+        <item>Tiếng Nhật</item>
+        <item>Tiếng Nga</item>
+        <item>Tiếng Hàn Quốc</item>
+        <item>Tiếng Indonesia</item>
+        <item>Tiếng Ả Rập</item>
+        <item>Tiếng Thái</item>
+        <item>Tiếng Thổ Nhĩ Kỳ</item>
+        <item>Tiếng Hindi</item>
+        <item>Tiếng Việt</item>
+        <item>Tiếng Rumani</item>
+    </array>
+</resources>

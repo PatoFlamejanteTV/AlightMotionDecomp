@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/stripe_add_payment_method_vertical_padding"
+    android:paddingBottom="@dimen/stripe_add_payment_method_vertical_padding"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/stripe_list_row_height"
+    android:layout_marginTop="@dimen/stripe_activity_total_margin"
+    android:paddingStart="@dimen/stripe_list_row_start_padding"
+    android:paddingEnd="@dimen/stripe_list_row_end_padding">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="start|center_vertical"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:layout_width="@dimen/stripe_masked_card_icon_width"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/stripe_google_pay_mark"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/label"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/stripe_google_pay"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/stripe_list_row_start_padding"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="center"
+        android:id="@+id/check_icon"
+        android:visibility="invisible"
+        android:layout_width="@dimen/stripe_masked_card_icon_width"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/stripe_ic_checkmark"/>
+</LinearLayout>

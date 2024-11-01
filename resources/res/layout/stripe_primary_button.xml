@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.compose.ui.platform.ComposeView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/lock_icon"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/stripe_ic_lock"
+        android:contentDescription="@null"
+        android:layout_marginStart="@dimen/stripe_paymentsheet_primary_button_icon_padding"
+        android:layout_marginEnd="@dimen/stripe_paymentsheet_primary_button_icon_padding"/>
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/confirming_icon"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_marginStart="@dimen/stripe_paymentsheet_primary_button_icon_padding"
+        android:layout_marginEnd="@dimen/stripe_paymentsheet_primary_button_icon_padding"
+        app:indicatorColor="@color/stripe_paymentsheet_primary_button_confirming_progress"
+        app:indicatorSize="@dimen/stripe_paymentsheet_primary_button_icon_size"
+        app:trackThickness="1dp"/>
+    <ImageView
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/confirmed_icon"
+        android:visibility="invisible"
+        android:layout_width="@dimen/stripe_paymentsheet_primary_button_icon_size"
+        android:layout_height="@dimen/stripe_paymentsheet_primary_button_icon_size"
+        android:src="@drawable/stripe_ic_paymentsheet_googlepay_primary_button_checkmark"
+        android:contentDescription="@null"
+        android:layout_marginStart="@dimen/stripe_paymentsheet_primary_button_icon_padding"
+        android:layout_marginEnd="@dimen/stripe_paymentsheet_primary_button_icon_padding"/>
+</merge>

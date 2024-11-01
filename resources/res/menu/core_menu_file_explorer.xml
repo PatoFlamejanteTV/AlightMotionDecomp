@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/core_vector_more"
+        android:id="@+id/action_create"
+        android:title="@string/core_action_copy"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/core_vector_checkbox"
+        android:id="@+id/action_selection_multiple"
+        android:title="@string/selection_multiple"
+        android:contentDescription="@string/selection_multiple"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/core_vector_copy"
+        android:id="@+id/action_copy"
+        android:title="@string/core_action_copy"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/core_vector_cut"
+        android:id="@+id/action_cut"
+        android:title="@string/core_action_cut"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/core_vector_paste"
+        android:id="@+id/action_paste"
+        android:title="@string/core_action_paste"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/core_vector_delete"
+        android:id="@+id/action_delete"
+        android:title="@string/option_button_delete"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/core_vector_zip"
+        android:id="@+id/action_compress"
+        android:title="@string/core_compress"
+        app:showAsAction="ifRoom"/>
+</menu>

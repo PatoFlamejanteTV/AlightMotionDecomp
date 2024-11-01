@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:icon="@drawable/vector_shortcut_updates"
+        android:enabled="true">
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.MainActivity"/>
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.Updates"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/vector_shortcut_myapps"
+        android:enabled="true">
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.MainActivity"/>
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.MyApps"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/vector_shortcut_downloads"
+        android:enabled="true">
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.MainActivity"/>
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.MyDownloads"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/vector_shortcut_settings"
+        android:enabled="true">
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.MainActivity"/>
+        <intent
+            android:targetPackage="com.uptodown"
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.uptodown.activities.preferences.SettingsPreferences"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+</shortcuts>

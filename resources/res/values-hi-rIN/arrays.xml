@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="localizedLang">
+        <item>अंग्रेजी</item>
+        <item>स्पेनिश</item>
+        <item>पुर्तगाली</item>
+        <item>जर्मन</item>
+        <item>फ्रेंच</item>
+        <item>इतालवी</item>
+        <item>चीनी</item>
+        <item>जापानी</item>
+        <item>रूसी</item>
+        <item>कोरियाई</item>
+        <item>इंडोनेशियाई</item>
+        <item>अरबी</item>
+        <item>थाई</item>
+        <item>तुर्की</item>
+        <item>हिन्दी</item>
+        <item>वियतनामी</item>
+        <item>रूमानियाई</item>
+    </array>
+</resources>
